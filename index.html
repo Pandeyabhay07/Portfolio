@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35e0011833.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Assets/images/Abhay.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Competitive Programmer</p>
+                <h1>Hi,I'm <span> Abhay</span><br> From India</h1>
+                <img id="bg" src="Assets/images/user.png" alt="">
+            </div>
+            <!-- <img id="bg" src="Assets/images/user.png" alt=""> -->
+        </div>
+    </div>
+<!-- About -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Assets/images/user.png" alt="User Photo">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p id="about-me">I am Abhay Pandey and I belong to city of Lord Prahalad, Hardoi, Uttar Pradesh.I am Currently persuing my BTech Degree in CS from ABES Engineering College,Ghaziabad. <br>
+                            As a second year computer science BTech student, I have gained a solid foundation in the core concepts of computer science, such as programming languages, data structures, algorithms, and computer architecture. I am now pursuing more advanced topics in areas such as operating systems, computer networks, and database management, while also beginning to specialize in my particular area of interest within the field.
+                            <br>
+                            Through my coursework and extracurricular activities, I have developed strong problem-solving and analytical skills, as well as proficiency in programming languages such as Python, C and C++. I am a collaborative team player with excellent communication skills and a passion for learning and staying up-to-date with the latest industry trends and technologies.
+                            
+                            Overall, I am a driven and dedicated individual who is eager to apply my skills and knowledge to make a meaningful contribution to the field of computer science.</p>
+                        <div class="tab-titles">
+                            <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tablinks"onclick="opentab('experience')">Experience</p>
+                            <p class="tablinks"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>DSA</span><br>Data Structures and Algorithms</li>
+                                <li><span>Web Development</span><br>Front-End Web Developer</li>
+                                <li><span>Competitive Programming</span><br>3-Star @CodeChef and Pupil @CodeForces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sep 2022 - Dec 2022 </span><br>Internship at E-Cell IIT Bombay</li>
+                                <li><span>Dec 2022 - Mar 2023 </span><br>Web Development Intern At Coding Clause</li>
+                                <li><span>Sep 2022 - Current</span><br>DSA Lead at Enigma(Coding Society Of ABESEC)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"id="education">
+                            <ul>
+                                <li><span>High-School (2018)</span><br>SGRR Public School,Hardoi | 90% </li>
+                                <li><span>Intermediate (2020)</span><br>SGRR Public School,Hardoi | 92% </li>
+                                <li><span>BTech (2025)</span><br>ABES Engineering College,Ghaziabad | 88%(Till 2nd Sem)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Services -->
+<div id="services">
+    <div class="container">
+         <h1 class="subtitle">My Projects</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>ABESaathi</h2>
+                <p>ABESAATHI is a free website developed for my college which provides
+                    college study materials (like notes,question papers,books,etc) along with
+                    coding related materials (like language tutorials,coding questions,etc) .
+                    •Technology used is HTML,CSS,JS and React JS framework.
+                    
+                </p>
+                <a href="https://abesaathi.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <h2>QR Code Generator</h2>
+                <p>This is a simple web application that generates QR Codes by using the URL provided.This is developed using the Node.JS .</p>
+                <a href="https://github.com/Pandeyabhay07/QR_Code_Generator" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Drum Kit</h2>
+                <p>This project is a drum-kit which produces the sound same as the original drum-set sounds. This can be played using the keyboard or just by click over the buttons by cursor.
+                    This project is developed using HTML, CSS and JS.
+                </p>
+                <a href="https://pandeyabhay07.github.io/Drum_Kit/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <h2>ToDo List</h2>
+                <p>This is a ToDo List application where you can save your tasks which you want to do on before any deadline.You can add and delete the tasks.
+                    This project is developed using HTML, CSS and JS.
+                </p>
+                <a href="https://github.com/Pandeyabhay07/To-Do-List" target="_blank"><i class="fa-solid fa-link"></i></a>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            
+         </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Assets/images/skills.jpg" alt="">
+                <div class="layer">
+                    <h3>My Skills</h3>
+                    <p><ol>
+                        <li class="a">Programming Languages
+                            <ul><li>C/C++,Python,JavaScript</li>
+                        </ul>
+                        </li>
+                        <li class="a">Web Development
+                            <ul><li>HTML CSS React-js</li></ul>
+                        </li>
+                        <li class="a">Frameworks
+                            <ul><li>Bootstrap,Git</li></ul>
+                        </li>
+                        <li class="a">Familiar and Interest
+                            <ul><li>Blockchain(Eherium)</li>
+                            </ul>
+                        </li>
+                    </ol></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Assets/images/course.jpg" alt="">
+                <div class="layer">
+                    <h3>CourseWork</h3>
+                    <p><ul>
+                        <li class="a">Data Structures</li>
+                        <li class="a">Algorithms</li>
+                        <li class="a">Object-Oriented Programming</li>
+                        <li class="a">Engg. Mathematics 1 and 2</li>
+                    </ul></p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Assets/images/achieve.jpg" alt="">
+                <div class="layer">
+                    <h3>Achievements/Awards</h3>
+                    <p><ul>
+                        <li class="a">Getting Schloraship Of INR 1 Lakhs PA from AICTE</li>
+                        <li class="a">Scored 3rd position and also won cash prize in National Level E-Portfolio Competition.</li>
+                        <li class="a">My Project Titled as Best Project at College level among 100+ projects in Tech-Srijan:A Project Exhibition</li>
+                        <li class="a">Rated 5 star at HackerRank in Problem Solving , C/C++</li>
+                        <li class="a"> Rated 3 stars(1650+) at CodeChef,one of the best coding platforms</li>
+                        <li class="a">Ranked 3rd Position in CS Department ABESEC in 1st Semester in University Exams</li>
+                    </ul></p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>abhaynitinpandey@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91-9118974018</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abhaypandey07/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_abhay__07/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:abhaynitinpandey07@gmail.com" ><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="Assets/images/Abhay_Pandey_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Abhay</p>
+    </div>
+</div>
+       <script src="index.js"></script>
+</body>
+</html>
